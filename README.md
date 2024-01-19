@@ -11,7 +11,7 @@
 
 Markdown is widely used for writing README files, documentation pages, blog posts, and other online content. We can use Markdown to create headings, lists, tables, links, images, code blocks, and more, using simple characters like asterisks, dashes, and brackets.
 
-## Syntaxt
+## Syntax
 
 ### Headings
 
