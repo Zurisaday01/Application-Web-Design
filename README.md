@@ -32,7 +32,7 @@ Markdown is widely used for writing README files, documentation pages, blog post
 
 ### Line Breaks
 
-To create a line break or new line (<br>), end a line with two or more spaces, and then type return.
+To create a line break or new line, end a line with two or more spaces, and then type return.
 
 | Markdown                                                    |
 | ----------------------------------------------------------- |
@@ -42,7 +42,8 @@ To create a line break or new line (<br>), end a line with two or more spaces, a
 
 You can add emphasis by making text bold or italic.
 
-**Bold**
+#### Bold
+
 To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.
 
 | Markdown                      |
@@ -50,7 +51,8 @@ To bold text, add two asterisks or underscores before and after a word or phrase
 | I just love `**bold text**`.  |
 | I just love `__bold text__` . |
 
-**Italic**
+#### Italic
+
 To italicize text, add one asterisk or underscore before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
 
 | Markdown                               |
@@ -75,7 +77,8 @@ To denote a word or phrase as code, enclose it in backticks (` ).
 
 ### Lists (Ordered and Unordered)
 
-**Ordered**
+#### Ordered
+
 To create an ordered list, add line items with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should start with the number one.
 
 ```markdown
@@ -85,7 +88,8 @@ To create an ordered list, add line items with numbers followed by periods. The 
 4. Fourth item.
 ```
 
-**Unordered**
+#### Unordered
+
 To create an unordered list, add dashes (-), asterisks (\*), or plus signs (+) in front of line items. Indent one or more items to create a nested list.
 
 ```markdown
@@ -125,10 +129,12 @@ To add an image, add an exclamation mark (!), followed by alt text in brackets, 
 
 ### Add individual files or globally
 
-**To add individual files**
+#### To add individual files
+
 `git add filename`
 
-**To add all changes globally**
+#### To add all changes globally
+
 `git add .`
 
 ### Add comments to the commit
@@ -141,19 +147,24 @@ To add an image, add an exclamation mark (!), followed by alt text in brackets, 
 
 ### Create, browse, and delete branches
 
-**Create**
+#### Create
+
 `git branch branch_name`
 
-**Browse**
+#### Browse
+
 `git branch`
 
-**Delete**
+#### Delete
+
 `git branch -d branch_name`
 
 ### Roll back a repository to a specific commit
 
-**To revert to a specific commit**
+#### To revert to a specific commit
+
 `git reset --hard commit_hash`
 
-**To keep the changes as uncommitted modifications**
+#### To keep the changes as uncommitted modifications
+
 `git reset --soft commit_hash`
